@@ -1,0 +1,13 @@
+#LIMPAR O TERMINAL.
+import os
+os.system("cls")
+
+#PROCESSAMENTO.
+numero = int(input("Digite um número: "))
+
+if numero == 10:
+    print("É IGUAL 10! ")
+elif numero > 10:
+    print(" É MAIOR QUE 10! ")
+else:
+    print(" É MENOR QUE 10! ")
