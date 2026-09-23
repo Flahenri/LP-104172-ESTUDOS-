@@ -1,6 +1,4 @@
 import os
-
-# ligar terminal
 os.system('cls')
 
 nome = input('Digite seu nome: ')
